@@ -11,8 +11,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.03256714448522446 0.9897203231233241 0.1392589785139224 0.46415360618522167
-  position -2.429109917046821 -0.14917915390167086 1.1642942276385018
+  orientation -0.0377913423121991 0.9967369323753479 0.07132532569307602 0.9772561780242236
+  position -1.9869221908497445 -0.17229257810008447 2.7318759345479893
 }
 TexturedBackground {
   texture "empty_office"
@@ -49,8 +49,8 @@ Wall {
   size 1.5 0.04 0.1
 }
 E-puck {
-  translation -0.6971646922031236 -0.4861594564857133 -6.395690791286511e-05
-  rotation 0.00036242680187816104 0.000978855377146978 -0.9999994552443336 0.7092056611075855
+  translation -0.550936 -0.547529 0.00986141
+  rotation 0.00010216599945091959 1.763229990523706e-05 -0.9999999946256053 0.693286
   controller "ObstacleAvoid"
   camera_fieldOfView 1
   camera_width 220
@@ -61,21 +61,21 @@ Wall {
   size 0.3 0.03 0.1
 }
 Obstacle {
-  translation 0.68 -0.38 0.025
+  translation 0.92 0.18 0.025
   color 0 0 1
 }
 Obstacle {
-  translation -0.21 0.73 0.025
+  translation -0.38 0.75 0.075
   color 0 0 1
   name "obstacle(2)"
 }
 Obstacle {
-  translation -0.22 0.73 0.085
+  translation -0.38 0.75 0.025
   color 0 0 1
   name "obstacle(3)"
 }
 Obstacle {
-  translation 0.68 -0.38 0.075
+  translation 0.92 0.18 0.075
   color 0 0 1
   name "obstacle(1)"
 }
